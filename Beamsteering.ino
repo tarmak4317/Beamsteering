@@ -50,12 +50,12 @@ void IRAM_ATTR onTimer()
   }
   if (--count4 == 0)
   {
-    TOGGLE_PIN(21);
+    TOGGLE_PIN(20);
     count4 = period;
   }
   if (--count5 == 0)
   {
-    TOGGLE_PIN(22);
+    TOGGLE_PIN(21);
     count5 = period;
   }
 
