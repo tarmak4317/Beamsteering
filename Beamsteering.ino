@@ -68,8 +68,8 @@ void setup()
   pinMode(5, OUTPUT);
   pinMode(18, OUTPUT);
   pinMode(19, OUTPUT);
+  pinMode(20, OUTPUT);
   pinMode(21, OUTPUT);
-  pinMode(22, OUTPUT);
 
   // Count value initialization
   count1 = period + delay1;
